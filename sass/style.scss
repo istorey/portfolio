@@ -5,6 +5,9 @@
 
 html {
 	box-sizing: border-box;
+	font-family: courier;
+	text-shadow: 1px 1px 1px black;
+	color: white;
 }
 
 body {
@@ -24,10 +27,18 @@ div{
 background: rgba(255, 0, 0, 0.1);
 text-align: center;
 position: fixed;
+padding-left: 30%;
+}
+
+.nav:hover {
+	color: yellow;
 }
 
 .header {
 	
+}
+.greeting{
+	padding-top: 10%;
 }
 
 .intro{

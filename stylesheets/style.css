@@ -1,14 +1,17 @@
 /* line 6, ../sass/style.scss */
 html {
   box-sizing: border-box;
+  font-family: courier;
+  text-shadow: 1px 1px 1px black;
+  color: white;
 }
 
-/* line 10, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 body {
   background: lightblue;
 }
 
-/* line 14, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 div {
   width: 100%;
   float: left;
@@ -20,21 +23,32 @@ div {
   background-repeat: no-repeat;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .nav {
   background: rgba(255, 0, 0, 0.1);
   text-align: center;
   position: fixed;
+  padding-left: 30%;
 }
 
 /* line 33, ../sass/style.scss */
+.nav:hover {
+  color: yellow;
+}
+
+/* line 40, ../sass/style.scss */
+.greeting {
+  padding-top: 10%;
+}
+
+/* line 44, ../sass/style.scss */
 .intro {
   height: 35em;
   background-image: url(../images/portfolio_header4.png);
   background-position: right;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .vinylA {
   height: 100%;
   background: black;
@@ -42,7 +56,7 @@ div {
   height: 1000px;
 }
 
-/* line 46, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .other_interests {
   height: 100%;
   height: 1000px;
