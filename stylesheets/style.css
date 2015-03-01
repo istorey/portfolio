@@ -1,4 +1,4 @@
-/* line 6, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 html {
   box-sizing: border-box;
   font-family: courier;
@@ -6,12 +6,12 @@ html {
   color: white;
 }
 
-/* line 13, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 body {
   background: lightblue;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 div {
   width: 100%;
   float: left;
@@ -23,42 +23,227 @@ div {
   background-repeat: no-repeat;
 }
 
-/* line 26, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .nav {
   background: rgba(255, 0, 0, 0.1);
   text-align: center;
   position: fixed;
   padding-left: 30%;
+  z-index: 3;
 }
 
-/* line 33, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .nav:hover {
   color: yellow;
 }
 
-/* line 40, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .greeting {
   padding-top: 10%;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .intro {
   height: 35em;
   background-image: url(../images/portfolio_header4.png);
   background-position: right;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .vinylA {
-  height: 100%;
+  height: 20%;
   background: black;
-  border-radius: 50%;
-  height: 1000px;
+  height: 100px;
 }
 
-/* line 57, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
+.projects {
+  height: 80em;
+  background-image: url(../images/projects2.png);
+  background-position: left;
+  background-size: 25em;
+  display: block;
+}
+
+/* line 7, ../sass/style.scss */
+.project1 .container {
+  width: 32.20339%;
+  float: left;
+  margin-left: 42.37288%;
+  margin-right: -100%;
+  perspective: 1000;
+  padding-top: 5em;
+}
+/* line 13, ../sass/style.scss */
+.project1 .container:hover .card, .project1 .container.hover .card {
+  transform: rotateY(180deg);
+}
+/* line 17, ../sass/style.scss */
+.project1 .container, .project1 .A_side, .project1 .B_side {
+  height: 20em;
+  width: 24em;
+}
+/* line 22, ../sass/style.scss */
+.project1 .card {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+/* line 28, ../sass/style.scss */
+.project1 .A_side, .project1 .B_side {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 35, ../sass/style.scss */
+.project1 .A_side {
+  z-index: 2;
+  transform: rotateY(0deg);
+  background: red;
+  padding-left: 1em;
+}
+/* line 42, ../sass/style.scss */
+.project1 .B_side {
+  transform: rotateY(180deg);
+  background: grey;
+  padding-left: 1em;
+}
+/* line 47, ../sass/style.scss */
+.project1 p {
+  z-index: 2;
+}
+
+/* line 7, ../sass/style.scss */
+.project2 .container {
+  width: 32.20339%;
+  float: left;
+  margin-left: 42.37288%;
+  margin-right: -100%;
+  perspective: 1000;
+  padding-top: 5em;
+}
+/* line 13, ../sass/style.scss */
+.project2 .container:hover .card, .project2 .container.hover .card {
+  transform: rotateY(180deg);
+}
+/* line 17, ../sass/style.scss */
+.project2 .container, .project2 .A_side, .project2 .B_side {
+  height: 20em;
+  width: 24em;
+}
+/* line 22, ../sass/style.scss */
+.project2 .card {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+/* line 28, ../sass/style.scss */
+.project2 .A_side, .project2 .B_side {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 35, ../sass/style.scss */
+.project2 .A_side {
+  z-index: 2;
+  transform: rotateY(0deg);
+  background: red;
+  padding-left: 1em;
+}
+/* line 42, ../sass/style.scss */
+.project2 .B_side {
+  transform: rotateY(180deg);
+  background: grey;
+  padding-left: 1em;
+}
+/* line 47, ../sass/style.scss */
+.project2 p {
+  z-index: 2;
+}
+
+/* line 7, ../sass/style.scss */
+.project3 .container {
+  width: 32.20339%;
+  float: left;
+  margin-left: 42.37288%;
+  margin-right: -100%;
+  perspective: 1000;
+  padding-top: 5em;
+}
+/* line 13, ../sass/style.scss */
+.project3 .container:hover .card, .project3 .container.hover .card {
+  transform: rotateY(180deg);
+}
+/* line 17, ../sass/style.scss */
+.project3 .container, .project3 .A_side, .project3 .B_side {
+  height: 20em;
+  width: 24em;
+}
+/* line 22, ../sass/style.scss */
+.project3 .card {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+/* line 28, ../sass/style.scss */
+.project3 .A_side, .project3 .B_side {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 35, ../sass/style.scss */
+.project3 .A_side {
+  z-index: 2;
+  transform: rotateY(0deg);
+  background: red;
+  padding-left: 1em;
+}
+/* line 42, ../sass/style.scss */
+.project3 .B_side {
+  transform: rotateY(180deg);
+  background: grey;
+  padding-left: 1em;
+}
+/* line 47, ../sass/style.scss */
+.project3 p {
+  z-index: 2;
+}
+/* line 125, ../sass/style.scss */
+.project3 .A_side {
+  background: url(../images/honeybuckets.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* line 131, ../sass/style.scss */
+.project3 .B_side {
+  display: block;
+}
+
+/* line 137, ../sass/style.scss */
+.vinylB {
+  height: 20%;
+  background: black;
+  height: 100px;
+}
+
+/* line 143, ../sass/style.scss */
 .other_interests {
-  height: 100%;
-  height: 1000px;
-  background-image: url(../images/airline.jpg);
+  height: 80em;
+  background-image: url(../images/other2.png);
+  background-position: left;
+  background-size: 25em;
+}
+
+/* line 151, ../sass/style.scss */
+.Business_card {
+  width: 83.05085%;
+  float: left;
+  margin-left: 8.47458%;
+  margin-right: -100%;
+  height: 30em;
+  background: white;
+  border: solid;
 }
